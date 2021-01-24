@@ -5,7 +5,7 @@ const handleRequest = function (request, response) {
 
 	  response.writeHead(200);
 
-	  response.end('Hello World -> Pricing Service 3');
+	  response.end('Hello World -> Pricing Service 4');
 };
 
 const www = http.createServer(handleRequest);
